@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1198px) {
+#navigation {
+	width: 100%;
+	margin: 0 auto;
+}
+.nav-menu li > a {
+	margin: 0;
+}
+}
+@media only screen and (max-width: 990px) {
+#navigation {
+	width: auto;
+	position: relative;
+	margin: 0;
+	float: right;
+	background: #9a7a32;
+	border: 1px solid #9a7a32;
+	margin: 0;
+}
+#navbtn {
+	display: block;
+	background: url(../images/navigation.png) no-repeat 0 50%;
+	width: 37px;
+	text-align: right;
+	height: 27px;
+	font-size: 0;
+	text-transform: uppercase;
+	line-height: 27px;
+	cursor: pointer;
+	color: #fff;
+}
+.nav-menu {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	background: #9a7a32;
+	width: 100%;
+	z-index: 999;
+	width: 260px;
+	box-shadow: 0 0 6px #000;
+}
+.nav-menu li {
+	float: none;
+}
+.nav-menu li+li {
+	border-top: 1px solid #000;
+}
+.nav-menu li > a {
+	font: 400 15px/35px 'Montserrat', sans-serif;
+	color: #fff;
+	padding: 0 10px;
+	margin: 0;
+}
+.nav-menu li .menuarrow {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	width: 30px;
+	height: 30px;
+	z-index: 99;
+	background: url(../images/nav-arrow.png) no-repeat 50% 50%;
+	display: block;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.nav-menu li:hover > .menuarrow, .nav-menu li.active > .menuarrow, .nav-menu li.current_page_item > .menuarrow {
+	background: url(../images/nav-arrow.png) no-repeat 50% 50% #fff;
+}
+.nav-menu .sub-menu {
+	position: relative;
+	margin: 0 3px;
+}
+.nav-menu .sub-menu .sub-menu {
+	left: 0;
+	margin: 0 5px;
+}
+.nav-menu .sub-menu li {
+	float: none;
+}
+.nav-menu li:hover > .sub-menu {
+	display: none;
+}
+.inner_menu .nav-menu li > a {
+	color: #fff;
+}
+}
+ @media only screen and (max-width: 740px) {
+#navigation {
+	margin: 0% 0 0 0;
+}
+}
+@media only screen and (min-width: 1024px) {
+.nav-menu {
+	display: table !important;
+}
+}
+@media only screen and (min-width: 1025px) {
+.nav-menu {
+	display: table !important;
+}
+}
+@media only screen and (max-width: 450px) {
+}
+ @media only screen and (max-width: 1024px) {
+body {
+	height: 100vh;
+}
+.menu_area {
+	float: left;
+	margin: 18px 200px;
+}
+.nav-menu li {
+	padding: 0 10px;
+}
+.content_left, .content_right {
+	width: 50%;
+	border: none;
+}
+}
+@media only screen and (max-width: 842px) {
+body {
+	height: auto;
+}
+header {
+	position: static;
+}
+.menu_area {
+	margin: 20px 0 20px 30px;
+}
+.content_left, .content_right {
+	width: 100%;
+	border: none;
+}
+.right_img {
+	margin: 15px 0 0;
+}
+.modal_book .modal-content {
+	width: 50%;
+}
+}
+@media only screen and (max-width: 768px) {
+body {
+	height: 100vh;
+}
+}
+@media only screen and (max-width: 740px) {
+body {
+	height: auto;
+}
+.exchange_wrap {
+	padding: 50px 0 25px;
+}
+}
+@media only screen and (max-width: 680px) {
+.modal_book .modal-content {
+	width: 60%;
+}
+}
+@media only screen and (max-width: 568px) {
+.tab-link {
+	margin: 0 35px;
+}
+}
+@media only screen and (max-width: 480px) {
+.tab-link {
+	margin: 0 15px;
+}
+}
+@media only screen and (max-width: 420px) {
+body {
+	height: 100vh;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+}
+.logo_after {
+	margin: 0;
+}
+.menu_area {
+	margin: 0;
+}
+.exchange_area {
+	text-align: center;
+}
+.modal_book .modal-content {
+	width: 90%;
+}
+.btn_area .btn {
+	margin: 10px 0 0;
+}
+.modal_book .close {
+	top: 5px;
+	right: 5px;
+}
+}
+@media only screen and (max-width: 380px) {
+}
+@media only screen and (max-width: 330px) {
+}
